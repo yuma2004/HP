@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ピアノの響き ~音楽の魂を奏でる~</title>
+    <meta name="description" content="ピアノの響き ~音楽の魂を奏でる~" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/index.js"></script>
+    <!-- googlefontの適用 -->
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- ヘッダー -->
+    <header id="header">
+      <h1 class="site-title">
+        <a href="#">
+          <span>ピアノの響き 魂を奏でる</span>
+        </a>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#photo">piano photo</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
+          <img src="./img/twitter.png" class="icon">
+        </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- メインビジュアル -->
+      <div id="mainvisual">
+        <picture>
+          <div class="grayscale"><a href="#"><img id ="mainImage" src="./main.jpg" alt=""></a></div>
+          <audio id="audioPlayer" controls loop>
+            <source src="./main_audio.mp3" type="audio/mpeg">
+          </audio>
+        </picture>
+      </div>
+
+      <!-- About -->
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">about</h2>
+        <ul>
+          <li>ピアノ</li>
+          <li>それは、音楽の魔法を奏でる鍵盤楽器。
+          </li>
+          <li>指先が触れる瞬間、音色は宇宙に響き渡り、心の奥深くに響き渡る。</li>
+          <li>ピアノは、無限の可能性を秘めたアートの宝玉。</li>
+        </ul>
+        <p>
+          音色に耳を澄ませて音楽の世界へ
+        </p>
+      </section>
+
+      <!-- Works -->
+      <section id="photo" class="wrapper">
+        <h2 class="sec-title">photo</h2>
+        <ul>
+          <li><img src="./img/ピアノ写真入れ/piano 1.jpeg" alt="photo1"></li>
+          <li><img src="./img/ピアノ写真入れ/piano2.jpeg" alt="photo2"></li>
+          <li><img src="./img/ピアノ写真入れ/piano3.jpeg" alt="photo3"></li>
+          <li><img src="./img/ピアノ写真入れ/piano4.jpeg" alt="photo4"></li>
+          <li><img src="./img/ピアノ写真入れ/piano5.jpeg" alt="photo5"></li>
+          <li><img src="./img/ピアノ写真入れ/paino6.webp" alt="photo6"></li>
+          <li><img src="./img/ピアノ写真入れ/piano7.webp" alt="photo7"></li>
+          <li><img src="./img/ピアノ写真入れ/piano8.jpg" alt="photo8"></li>
+          <li><img src="./img/ピアノ写真入れ/piano9.jpg" alt="photo9"></li>
+        </ul>
+      </section>
+
+      <!-- News -->
+      <section id="news" class="wrapper">
+        <h2 class="sec-title">News</h2>
+        <dl>
+          <dt>2022/10/23</dt>
+          <dd>MoonlightJazzBlueによる大人気のジャズピアノのCDが新しく発売されました。</dd>
+          <dt>2022/10/23</dt>
+          <dd>塗るだけでスマホや車のピアノブラック部分を保護する【侍コーティング】発売</dd>
+          <dt>2022/10/23</dt>
+          <dd>島本須美 井上あずみ 角野隼斗 菊池亮太による歌とピアノのスペシャルコンサート「sings ジブリ」</dd>
+          <dt>2022/10/23</dt>
+          <dd>川崎希、購入を検討している約1500万円の品「いよいよ最終段階にきました」</dd>
+          <dt>2022/10/23</dt>
+          <dd>まらしぃピアノツアー再開、東京公演ゲストにまらおバンド決定</dd>
+        </dl>
+      </section>
+      
+      <!-- Contact -->
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <p>お問い合わせは以下のフォームから
+        </p>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" id="name"></dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="email" id="email"></dd>
+            <dt><label for="name">内容</label></dt>
+            <dd><textarea id="content" cols="30" rows="10"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer id="footer"></footer>
+    </main>
+  </body>
+</html>
